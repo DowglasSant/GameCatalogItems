@@ -5,14 +5,14 @@ namespace Catalog.Repositories
 
     public class InMemItemsRepository : IItemsRepository
     {
-        private readonly List<Item> items = new()
-        {
-            new Item { Id = Guid.NewGuid(), Name = "Potion", Price = 9, CreatedDate = DateTimeOffset.UtcNow },
-            new Item { Id = Guid.NewGuid(), Name = "Club", Price = 15, CreatedDate = DateTimeOffset.UtcNow },
-            new Item { Id = Guid.NewGuid(), Name = "Wood Shield", Price = 13, CreatedDate = DateTimeOffset.UtcNow },
-            new Item { Id = Guid.NewGuid(), Name = "Running Shoes", Price = 30, CreatedDate = DateTimeOffset.UtcNow },
-            new Item { Id = Guid.NewGuid(), Name = "Cheap Food", Price = 5, CreatedDate = DateTimeOffset.UtcNow }
-        };
+        private readonly List<Item> items = new();
+        // {
+        //     new Item { Id = Guid.NewGuid(), Name = "Potion", Price = 9, CreatedDate = DateTimeOffset.UtcNow },
+        //     new Item { Id = Guid.NewGuid(), Name = "Club", Price = 15, CreatedDate = DateTimeOffset.UtcNow },
+        //     new Item { Id = Guid.NewGuid(), Name = "Wood Shield", Price = 13, CreatedDate = DateTimeOffset.UtcNow },
+        //     new Item { Id = Guid.NewGuid(), Name = "Running Shoes", Price = 30, CreatedDate = DateTimeOffset.UtcNow },
+        //     new Item { Id = Guid.NewGuid(), Name = "Cheap Food", Price = 5, CreatedDate = DateTimeOffset.UtcNow }
+        // };
 
         public IEnumerable<Item> GetItems()
         {
