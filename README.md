@@ -1,0 +1,2 @@
+# GameCatalogItems
+Em Construção.
