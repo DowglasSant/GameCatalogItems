@@ -5,8 +5,8 @@
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``.NET 6.0``
-- ``Visual Studio Code``
 - ``Docker``
 - ``MongoDb``
 - ``RESTApi``
+- ``Visual Studio Code``
 
