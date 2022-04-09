@@ -45,6 +45,7 @@ namespace Catalog.Controllers
                 Id = Guid.NewGuid(),
                 Name = itemDto.Name,
                 Price = itemDto.Price,
+                Percentage = itemDto.Percentage,
                 CreatedDate = DateTimeOffset.UtcNow
             };
 
@@ -66,7 +67,8 @@ namespace Catalog.Controllers
             Item updateItem = existingItem with
             {
                 Name = itemDto.Name,
-                Price = itemDto.Price
+                Price = itemDto.Price,
+                Percentage = itemDto.Percentage
             };
 
             await repository.UpdateItem(updateItem);
