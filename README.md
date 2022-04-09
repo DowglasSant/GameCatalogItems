@@ -6,5 +6,7 @@
 
 - ``.NET 6.0``
 - ``Visual Studio Code``
-- ``Paradigma de orientação a objetos``
+- ``Docker``
+- ``MongoDb``
 - ``RESTApi``
+
